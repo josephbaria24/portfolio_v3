@@ -7,10 +7,10 @@ export function HeroAnimation() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
-    const canvas = canvasRef.current
+    const canvas = canvasRef.current!
     if (!canvas) return
 
-    const ctx = canvas.getContext("2d")
+    const ctx = canvas.getContext("2d")!
     if (!ctx) return
 
     // Set canvas dimensions
