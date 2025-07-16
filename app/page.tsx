@@ -229,25 +229,25 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
-              title="E-commerce Platform"
-              description="A full-stack e-commerce platform built with Next.js, Stripe, and Prisma."
-              tags={["Next.js", "TypeScript", "Prisma", "Stripe"]}
-              image="/placeholder.svg?height=400&width=600"
+              title="RentConnect App"
+              description="A full-stack mobile app built with Flutter, NodeJS and MongoDB."
+              tags={["Flutter", "Dart", "NodeJS", "MongoDB"]}
+              image="/rc.png?height=100&width=100"
               demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/josephbaria24/rentconnect_flutter.git"
             />
             <ProjectCard
-              title="Task Management App"
-              description="A collaborative task management application with real-time updates."
-              tags={["React", "Firebase", "Tailwind CSS", "Redux"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="Villa Costa App"
+              description="A mobile app for booking rooms in Villa Costa"
+              tags={["Flutter",]}
+              image="/VC-1.png?height=400&width=600"
+              demoUrl="https://drive.google.com/file/d/1lXJVl_JNFepVT1xGDQZ3vc-9q0EoRppF/view?usp=drive_link"
+              repoUrl="https://github.com/josephbaria24/villa-costa-app.git"
             />
             <ProjectCard
-              title="AI Content Generator"
-              description="An AI-powered content generation tool using OpenAI's GPT models."
-              tags={["Next.js", "OpenAI API", "Node.js", "MongoDB"]}
+              title="Note"
+              description="A mobile app for creating and storing notes"
+              tags={["Flutter"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
@@ -270,11 +270,11 @@ export default function Portfolio() {
             />
             <ProjectCard
               title="Portfolio Website"
-              description="This portfolio website built with Next.js and Tailwind CSS."
-              tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              description="This portfolio website built with HTML/CSS and JavaScript."
+              tags={["HTML", "CSS", "JavaScript"]}
+              image="/educare.png?height=400&width=600"
+              demoUrl="https://educare-seven.vercel.app/m"
+              repoUrl="https://github.com/josephbaria24/EduCare.git"
             />
           </div>
         </div>

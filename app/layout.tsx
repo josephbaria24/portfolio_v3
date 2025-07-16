@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'jlb-pf',
-  description: 'Created with v0',
+  description: 'jlb-pf',
   generator: 'v0.dev',
 }
 
