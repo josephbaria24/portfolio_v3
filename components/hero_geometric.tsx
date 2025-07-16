@@ -80,7 +80,7 @@ function ElegantShape({
 
 export default function HeroGeometric({
   badge = "Web & App Developer",
-  title1 = "Hi, I'am",
+  title1 = "Hi, I am",
   title2 = "Joseph L. Baria",
 }: {
   badge?: string
