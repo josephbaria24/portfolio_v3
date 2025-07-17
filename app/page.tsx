@@ -41,7 +41,7 @@ export default function Portfolio() {
   {/* Main content (centered and slightly lower) */}
   <div className="container relative z-10 flex flex-col items-center text-center mt-60 pt-60 px-4">
     <p className="text-xl text-zinc-400 max-w-[600px]">
-      nub, but I can create websites and applications.
+      I'm still learning, but I can create websites and applications.
     </p>
 
     <div className="flex flex-wrap gap-4 pt-6 justify-center">
@@ -54,13 +54,15 @@ export default function Portfolio() {
           <span className="absolute inset-0 bg-gradient-to-r from-orange-500 to-orange-600 opacity-0 group-hover:opacity-100 transition-opacity"></span>
         </Button>
       </a>
-
+      <a href="#contact">
       <Button
         variant="outline"
         className="border-zinc-700 text-orange-500 hover:text-orange-700 hover:border-zinc-500 bg-transparent"
       >
         Contact Me
       </Button>
+      </a>
+      
     </div>
 
     <div className="flex gap-4 pt-6">
@@ -233,7 +235,7 @@ export default function Portfolio() {
               description="A full-stack mobile app built with Flutter, NodeJS and MongoDB."
               tags={["Flutter", "Dart", "NodeJS", "MongoDB"]}
               image="/rc.png?height=100&width=100"
-              demoUrl="https://example.com"
+              demoUrl="https://apkpure.com/rentconnect/com.example.rentcon#google_vignette"
               repoUrl="https://github.com/josephbaria24/rentconnect_flutter.git"
             />
             <ProjectCard
@@ -241,39 +243,39 @@ export default function Portfolio() {
               description="A mobile app for booking rooms in Villa Costa"
               tags={["Flutter",]}
               image="/VC-1.png?height=400&width=600"
-              demoUrl="https://drive.google.com/file/d/1lXJVl_JNFepVT1xGDQZ3vc-9q0EoRppF/view?usp=drive_link"
+              demoUrl="https://drive.google.com/drive/folders/1jFFai1X-YH5sPMZn8jz9dAZM6bJ92jkQ?usp=sharing"
               repoUrl="https://github.com/josephbaria24/villa-costa-app.git"
             />
-            <ProjectCard
+            {/* <ProjectCard
               title="Note"
               description="A mobile app for creating and storing notes"
               tags={["Flutter"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
-            />
+            /> */}
             <ProjectCard
-              title="Fitness Tracker"
+              title="OVPEC system"
               description="A mobile-first fitness tracking application with data visualization."
               tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/vpec1.png?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
             />
-            <ProjectCard
+            {/* <ProjectCard
               title="Weather Dashboard"
               description="A beautiful weather dashboard with forecasts and historical data."
               tags={["React", "Weather API", "Chart.js", "Styled Components"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
-            />
+            /> */}
             <ProjectCard
               title="Portfolio Website"
               description="This portfolio website built with HTML/CSS and JavaScript."
               tags={["HTML", "CSS", "JavaScript"]}
               image="/educare.png?height=400&width=600"
-              demoUrl="https://educare-seven.vercel.app/m"
+              demoUrl="https://educare-seven.vercel.app/"
               repoUrl="https://github.com/josephbaria24/EduCare.git"
             />
           </div>
@@ -370,7 +372,7 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com/shinekyaw" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/josephbaria24" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -380,7 +382,7 @@ export default function Portfolio() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/josephlucasbaria89/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
