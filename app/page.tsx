@@ -231,6 +231,38 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
+              title="EcomStore"
+              description="A self project, e-commerce website ready to modify, built with NextJS and Tailwind CSS."
+              tags={["NextJS", "Shadcn UI", "Supabase", "Typescript"]}
+              image="/ecomstore.png?height=400&width=600"
+              demoUrl="https://drive.google.com/drive/folders/1r-XD-AMetMjHd5RDyCygn_1vFww_FOZJ?usp=sharing"
+              repoUrl="https://github.com"
+            />
+          <ProjectCard
+              title="CRM Web App - Petrosphere Inc. Company"
+              description="A CRM web application for managing and tracking leads and sales processes."
+              tags={["NextJS", "Shadcn UI", "Supabase", "Typescript"]}
+              image="/acrm.png?height=400&width=600"
+              demoUrl="https://drive.google.com/drive/folders/1A2NKAbD-EWqpdqe3hJ_ewpc3Z5Wgkjyf?usp=sharing"
+              repoUrl="https://github.com"
+            />
+            <ProjectCard
+              title="Safety Vitals Web app - Petrosphere Inc. Company"
+              description="Safety Vitals is a digital platform that centralizes safety data, tracks key indicators in real time, and delivers insights to improve workplace safety, compliance, and incident prevention."
+              tags={["React", "NextJS", "Shadcn UI", "Supabase", "Typescript"]}
+              image="/safetyvitals.png?height=400&width=600"
+              demoUrl="https://drive.google.com/drive/folders/15Y8wKjIUnRf8WJLKT0p3M5cFj4S_Ij99?usp=sharing"
+              repoUrl="https://github.com"
+            />
+            <ProjectCard
+              title="Payroll System - Petrosphere Inc. Company"
+              description="A payroll system for managing employee salaries and deductions."
+              tags={["Biometrics Integration", "React", "NextJS", "Shadcn UI", "Supabase", "Typescript"]}
+              image="/payroll.png?height=400&width=600"
+              demoUrl="https://drive.google.com/drive/folders/1dSRYFrndxzTutNNwAuvx9Ct25mxrgCHG?usp=sharing"
+              repoUrl="https://github.com"
+            />
+            <ProjectCard
               title="RentConnect App"
               description="A full-stack mobile app built with Flutter, NodeJS and MongoDB."
               tags={["Flutter", "Dart", "NodeJS", "MongoDB"]}
@@ -241,35 +273,21 @@ export default function Portfolio() {
             <ProjectCard
               title="Villa Costa App"
               description="A mobile app for booking rooms in Villa Costa"
-              tags={["Flutter",]}
+              tags={["Flutter", "Dart"]}
               image="/VC-1.png?height=400&width=600"
               demoUrl="https://drive.google.com/drive/folders/1jFFai1X-YH5sPMZn8jz9dAZM6bJ92jkQ?usp=sharing"
               repoUrl="https://github.com/josephbaria24/villa-costa-app.git"
             />
-            {/* <ProjectCard
-              title="Note"
-              description="A mobile app for creating and storing notes"
-              tags={["Flutter"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            /> */}
+            
             <ProjectCard
               title="OVPEC system"
-              description="A mobile-first fitness tracking application with data visualization."
-              tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
+              description="A first ever document tracking system of office of the vice president for external campuses of Palawan State Univerity."
+              tags={["React Native", "JS", "Firebase"]}
               image="/vpec1.png?height=400&width=600"
-              demoUrl="https://example.com"
+              demoUrl="https://drive.google.com/drive/folders/1cnjAy80IYq0WSu_AwZqzHpvI_LZp_HsU?usp=sharing"
               repoUrl="https://github.com"
             />
-            {/* <ProjectCard
-              title="Weather Dashboard"
-              description="A beautiful weather dashboard with forecasts and historical data."
-              tags={["React", "Weather API", "Chart.js", "Styled Components"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            /> */}
+            
             <ProjectCard
               title="Portfolio Website"
               description="This portfolio website built with HTML/CSS and JavaScript."
