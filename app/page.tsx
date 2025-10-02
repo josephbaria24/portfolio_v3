@@ -238,7 +238,7 @@ export default function Portfolio() {
               demoUrl="https://drive.google.com/drive/folders/1r-XD-AMetMjHd5RDyCygn_1vFww_FOZJ?usp=sharing"
               repoUrl="https://github.com"
             />
-          <ProjectCard
+          {/* <ProjectCard
               title="CRM Web App - Petrosphere Inc. Company"
               description="A CRM web application for managing and tracking leads and sales processes."
               tags={["NextJS", "Shadcn UI", "Supabase", "Typescript"]}
@@ -261,7 +261,7 @@ export default function Portfolio() {
               image="/payroll.png?height=400&width=600"
               demoUrl="https://drive.google.com/drive/folders/1dSRYFrndxzTutNNwAuvx9Ct25mxrgCHG?usp=sharing"
               repoUrl="https://github.com"
-            />
+            /> */}
             <ProjectCard
               title="RentConnect App"
               description="A full-stack mobile app built with Flutter, NodeJS and MongoDB."
